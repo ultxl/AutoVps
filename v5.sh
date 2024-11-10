@@ -31,7 +31,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[96;1m              WELCOME TO SRICPT BY KIZARU STORE VPN             \033[0m"
+echo -e "\033[96;1m              WELCOME TO SCRIPT ULTXL STORE VPN             \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -75,7 +75,7 @@ clear
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
 clear
-izinsc="https://raw.githubusercontent.com/Genome26/v5/v5/ip"
+izinsc="https://raw.githubusercontent.com/ultxl/Autovps/Autovps/ip"
 rm -f /usr/bin/user
 username=$(curl ${izinsc} | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
@@ -105,7 +105,7 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://raw.githubusercontent.com/Genome26/v5/v5/"
+REPO="https://raw.githubusercontent.com/ultxl/Autovps/Autovps/"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
