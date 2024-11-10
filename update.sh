@@ -32,7 +32,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-wget https://raw.githubusercontent.com/Genome26/v5/v5/Cdy/menu.zip
+wget https://raw.githubusercontent.com/ultxl/AutoVps/menu.zip
 7z x -pHeyHeyMauDecryptYaAwokawok menu.zip
 chmod +x menu/*
 mv menu/* /usr/local/sbin
