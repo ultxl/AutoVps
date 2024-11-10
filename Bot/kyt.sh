@@ -19,13 +19,13 @@ apt update && apt upgrade
 apt install neofetch -y
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://raw.githubusercontent.com/ultxl/Autovps/main/bot.zip
+wget https://raw.githubusercontent.com/ultxl/AutoVps/main/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/ultxl/Autovps/main/kyt.zip
+wget https://raw.githubusercontent.com/ultxl/AutoVps/main/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
